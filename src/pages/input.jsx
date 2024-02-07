@@ -23,6 +23,19 @@ export default function Input() {
     setProtagonistGender(gender);
   };
 
+  const handleReset = () => {
+    setCurrentStep(1);
+    setRelationshipStatus('');
+    setProtagonistInitials('DemiLune');
+    setProtagonistGender('female');
+    setPartnerInitials('Starry');
+    setProtagonistLanguage('FrontendDev');
+    setPartnerLanguage('BackendDev');
+    setCodeWord('Design');
+    setLoveCodeStory('');
+    setSelectedGender('');
+  };
+
   const generateLoveCodeStory = () => {
     let story = '';
 
@@ -148,6 +161,12 @@ export default function Input() {
           <div className="modal bg-[#f9f9f9] shadow-2xl flex flex-col justify-center items-center rounded-md p-4 mt-4">
             <h2 className='chip text-3xl lg:text-5xl mb-6 text-[#A2171C]'>Your Love Code Story:</h2>
             <p className='pang text-[#111] flex flex-col text-2xl w-full max-w-[90vw]'>{loveCodeStory}</p>
+            <button
+              onClick={handleReset}
+              className={`bg-[#A2171C] border-none text-xl outline-none shadow-lg hover:scale-95 transition-all rounded-sm mt-8 px-3 py-2 w-full`}
+            >
+              Reset
+            </button>
           </div>
         ) : (
           <div>
