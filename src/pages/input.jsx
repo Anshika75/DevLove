@@ -163,7 +163,7 @@ export default function Input() {
             <p className='pang text-[#111] flex flex-col text-2xl w-full max-w-[90vw]'>{loveCodeStory}</p>
             <button
               onClick={handleReset}
-              className={`bg-[#A2171C] absolute top-4 right-6 text-[#A2171C] border-none text-xl outline-none shadow-lg hover:scale-95 transition-all rounded-sm mt-8 px-3 py-2 w-full`}
+              className={`absolute top-0 right-2 text-[#A2171C] border-none text-xl outline-none hover:scale-95 transition-all rounded-sm px-3 py-2`}
             >
               <i class="fa-solid fa-rotate-right"></i>
             </button>
