@@ -29,11 +29,11 @@ export default function Landing() {
     }, []);
 
     return (
-        <div className='grid place-items-center min-h-screen chip text-white text-9xl'>
+        <div className='grid place-items-center min-h-screen chip text-white text-5xl lg:text-9xl'>
             <div className="flex flex-col items-center justify-center">
                 <h1>{text}</h1>
                 {isTypingComplete && (
-                    <div className={`pang flex flex-col items-center justify-center text-4xl mt-4`}>
+                    <div className={`pang flex flex-col items-center justify-center text-xl lg:text-4xl mt-4`}>
                         <p className={` opacity-0 ${isBlinking ? 'blink' : ''}`}>Forge Your Love Story in Code</p>
                         <button className={`opacity-0 bg-[#A2171C] mt-4 px-3 py-2 ${isBlinking ? 'btnblink' : ''}`}>
                             <Link to='/input'>Get Started</Link>
