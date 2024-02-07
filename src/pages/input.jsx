@@ -89,7 +89,7 @@ export default function Input() {
                 </label>
                 <div className='flex space-x-4'>
                   <button className={` border-none text-xl outline-none shadow-lg hover:scale-105 transition-all rounded-sm mt-4 px-3 py-2 ${protagonistGender === 'female' ? 'bg-[#A2171C]' : 'bg-[#444]'} ${protagonistGender === 'female' ? 'cursor-pointer' : 'cursor-not-allowed'}`} onClick={() => handleProtagonistGender('male')}>Male</button>
-                  <button className={` border-none text-xl outline-none shadow-lg hover:scale-105 transition-all rounded-sm mt-4 px-3 py-2 ${protagonistGender === 'female' ? 'bg-[#A2171C]' : 'bg-[#444]'} ${protagonistGender === 'male' ? 'cursor-pointer' : 'cursor-not-allowed'}`} onClick={() => handleProtagonistGender('female')}>Female</button>
+                  <button className={` border-none text-xl outline-none shadow-lg hover:scale-105 transition-all rounded-sm mt-4 px-3 py-2 ${protagonistGender === 'female' ? 'bg-[#444]' : 'bg-[#A2171C]'} ${protagonistGender === 'male' ? 'cursor-pointer' : 'cursor-not-allowed'}`} onClick={() => handleProtagonistGender('female')}>Female</button>
                 </div>
               </div>
             )}
