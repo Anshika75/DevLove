@@ -159,7 +159,7 @@ export default function Input() {
       <div className="flex flex-col justify-center items-center">
         {loveCodeStory ? (
           <div className="modal bg-[#f9f9f9] relative shadow-2xl flex flex-col justify-center items-center rounded-md p-4 mt-4">
-            <h2 className='chip text-3xl lg:text-5xl mb-6 text-[#A2171C]'>Your Love Code Story:</h2>
+            <h2 className='chip text-3xl lg:text-5xl mb-6 text-[#A2171C]'>Your DevLove Story:</h2>
             <p className='pang text-[#111] flex flex-col text-2xl w-full max-w-[90vw]'>{loveCodeStory}</p>
             <button
               onClick={handleReset}
@@ -170,7 +170,7 @@ export default function Input() {
           </div>
         ) : (
           <div>
-            <h1 className='chip text-3xl text-center lg:text-5xl mb-6'>&lt; Love Code Story Generator &gt;</h1>
+            <h1 className='chip text-3xl text-center lg:text-5xl mb-6'>&lt; DevLove Story Generator &gt;</h1>
             <div className="modal bg-[#f9f9f9] shadow-2xl flex flex-col justify-center items-center rounded-md p-4 mt-4">{renderStepContent()}</div>
           </div>
         )}
