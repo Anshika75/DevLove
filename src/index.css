@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "Chiptune Valentine";
+    src: url("https://db.onlinewebfonts.com/t/4edda3f0bd631bb4a2b01bd572e9a643.eot");
+    src: url("https://db.onlinewebfonts.com/t/4edda3f0bd631bb4a2b01bd572e9a643.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/4edda3f0bd631bb4a2b01bd572e9a643.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/4edda3f0bd631bb4a2b01bd572e9a643.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/4edda3f0bd631bb4a2b01bd572e9a643.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/4edda3f0bd631bb4a2b01bd572e9a643.svg#Chiptune Valentine")format("svg");
+}
+.bg{
+    background-image: url('./assets/bg.png');
+    background-size: 100% 170%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.chip{
+    font-family: "Chiptune Valentine";
+}
+.pang{
+    font-family: 'Pangolin', cursive;
+}
+/* Add to your existing styles or create a new CSS file */
+
+@keyframes blink {
+    25%, 100% {
+        opacity: 1;
+    }
+    0%, 50%, 75% {
+        opacity: 0;
+    }
+}
+
+.blink {
+    animation: blink 1s forwards; /* Adjust the duration as needed */
+}
+.btnblink{
+    animation: blink 1s forwards;
+    animation-delay: 1.5s;
+}
+
+
+
+@media screen and (min-width: 640px) {
+    .bg{
+        background-image: url('./assets/mobbg.png');
+    }
+}
