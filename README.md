@@ -31,15 +31,11 @@ To get started with the DevLove Story Generator, follow these steps:
 
 ## Project Link
 
-[DevLove Story Generator]([https://lnkd.in/gk3-uMuc](https://devlovevalentinespecial.netlify.app/))
+[DevLove Story Generator]([https://devlovevalentinespecial.netlify.app/]).
 
 ## Contributing
 
-If you'd like to contribute to the project, please follow the [contributing guidelines](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+If you'd like to contribute to the project, please follow the contributing guidelines.
 
 ## Acknowledgments
 
