@@ -31,7 +31,7 @@ To get started with the DevLove Story Generator, follow these steps:
 
 ## Project Link
 
-[DevLove Story Generator]([https://devlovevalentinespecial.netlify.app/]).
+[DevLove Story Generator](https://devlovevalentinespecial.netlify.app/).
 
 ## Contributing
 
