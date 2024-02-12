@@ -31,7 +31,7 @@ To get started with the DevLove Story Generator, follow these steps:
 
 ## Project Link
 
-[DevLove Story Generator](https://lnkd.in/gk3-uMuc)
+[DevLove Story Generator]([https://lnkd.in/gk3-uMuc](https://devlovevalentinespecial.netlify.app/))
 
 ## Contributing
 
