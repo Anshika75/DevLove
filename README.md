@@ -3,7 +3,6 @@
 # DevLove Story Generator
 
 ## Introduction
-
 Welcome to the DevLove Story Generator! This project is a whimsical creation that allows you to express your coding journey with a dash of romance, just in time for Valentine's Week. Whether you're single or in a relationship, celebrate your love for coding in a whole new light with personalized coding love stories.
 
 ## Valentine's Twist
